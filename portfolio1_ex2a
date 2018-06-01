@@ -1,0 +1,9 @@
+/**
+* Portfolio Exercise 2 a
+* brother and sister
+* Created by Alexander Keidel, 22397868 on 06.02.2017
+* last edited on 06.02.2017
+*/
+
+%male persons
+male(philip).

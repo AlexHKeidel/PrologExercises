@@ -1,0 +1,18 @@
+/**
+* Portfolio Exercise 2 a
+* The royal family
+* Created by Alexander Keidel, 22397868 on 06.02.2017
+* last edited on 06.02.2017
+*/
+
+
+district(stirling, dunblane).
+region(central, stirling).
+country(scotland, central).
+continent(europe, scotland).
+
+within(X, Y):-district(X, Y);
+	      region(X, Y);
+	      country(X, Y);
+	      continent(X, Y).
+
